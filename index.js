@@ -23,4 +23,5 @@ if (itsWindy(speed, unit)) {
   document.querySelector(".title").style.borderColor = "red";
   document.querySelector(".title").style.color = "yellow";
   document.querySelector(".title-text").style.color = "red";
+  document.querySelector(".title-text").style.borderColor = "green";
 }
