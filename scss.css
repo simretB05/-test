@@ -1,6 +1,10 @@
 .title {
   color: indigo;
-  border: 3px solid green;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   font-weight: 200;
+}
+
+.title-text {
+  width: 100%;
+  border: 2px solid green;
 }/*# sourceMappingURL=scss.css.map */
