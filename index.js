@@ -21,12 +21,12 @@ if (itsWindy(speed, unit)) {
   alert("it is windy");
 } else {
   document.querySelector(".title").style.borderColor = "red";
-<<<<<<< HEAD
+
   document.querySelector(".title").style.color = "papayawhip";
   document.querySelector(".title").style.backgroundColor = "lightblue";
 
   document.querySelector(".title-text").style.color = "green";
-=======
+
   document.querySelector(".title").style.color = "yellow";
 
   document.querySelector(".title-text").style.color = "red";
