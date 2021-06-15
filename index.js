@@ -17,21 +17,17 @@ function itsWindy(speed, unit) {
 }
 let speed = prompt("what is the wind speed");
 let unit = prompt("what is the unit metric or imperal?");
+
 if (itsWindy(speed, unit)) {
   alert("it is windy");
 } else {
-  document.querySelector(".title").style.borderColor = "red";
-
+  document.querySelector(".title").style.borderColor = "blue";
   document.querySelector(".title").style.color = "papayawhip";
-  document.querySelector(".title").style.backgroundColor = "lightblue";
-
-  document.querySelector(".title-text").style.color = "green";
-
-  document.querySelector(".title").style.color = "yellow";
-
-  document.querySelector(".title-text").style.color = "red";
-  document.querySelector(".title-text").style.borderColor = "green";
-
-  document.querySelector(".title-text").style.backgroundColor = "green";
-
+  document.querySelector(".title").style.backgroundColor = "lightgreen";
+  document.querySelector(".title-text").style.color = "black";
+  document.querySelector(".title-text").style.backgroundColor = "lightblue";
 }
+const button = document.querySelector("button");
+button.addEventListener("click", (e) => {
+  console.log(`event fired:{(e)}`);
+});
