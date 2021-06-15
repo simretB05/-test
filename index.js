@@ -44,4 +44,8 @@ document.getElementById("button").addEventListener("click", (e) => {
   let newli = document.createElement("li");
   newli.innerHTML = `bravo simret!!`;
   document.querySelector(".list").appendChild(newli);
+  newli.classList.add("list-item__new");
+  setTimeout(function () {
+    newli.classList.remove("list-item__new");
+  }, 900);
 });

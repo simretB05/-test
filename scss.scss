@@ -16,6 +16,22 @@
 .list {
   display: block;
 }
+/* The animation code */
+@keyframes example {
+  from {
+    background-color: yellow;
+  }
+  to {
+    background-color: rgb(8, 8, 8);
+  }
+}
+
+/* The element to apply the animation to */
+.list-item__new {
+  background-color: red;
+  animation-name: example;
+  animation-duration: 2s;
+}
 .button {
   width: 250px;
   height: 80px;
